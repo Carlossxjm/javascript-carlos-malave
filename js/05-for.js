@@ -10,8 +10,8 @@ for (let i=0; i<materias.length; i++) {
 
 let text = "";
 
-for (let i = 50; i < 1501; i++) {
-    text += "a " + i + "<br>";
+for (let i = 0; i < 1501; i++) {
+    text += " " + i + "<br>";
 }
 
 document.getElementById("numero").innerHTML = text;
