@@ -30,7 +30,7 @@ function mostrarCatalogo(catalogo){
 
 
 
-var total = 0;
+var total = "compras2";
 
 function agregarCarrito(precio){
     return total += precio;
