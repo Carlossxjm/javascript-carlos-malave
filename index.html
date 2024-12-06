@@ -4,16 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
+    <link rel="stylesheet" href="css/styledom.css">
 </head>
 <body>
+<!--<body onload="window.alert (`Bienvenido`);">!-->
     
-<p id="numero"></p>
+    <h1 class="title">ola</h1>
+    <h1 class="title">Javascript</h1>
+    <ul class="nav">
+        <li><a>Inicio</a></li>
+        <li><a>Nosotros</a></li>
+        <li><a>Contactanos</a></li>
+    </ul>
 
-<p id="text"></p>
+    <img src="images/cejita.jpg" alt="cejita.jpg" id="cejita" class="foto"/>
+    <img src="images/CLASE-6-CECILIA-.jpg" alt="CLASE-6-CECILIA-.jpg" id="CLASE-6-CECILIA-" class="foto"/>
+    
+    <p id="numero"></p>
+    <p id="text"></p>
+    <p id="result"></p>
 
-<p id="result"></p>
+    <button class="boton" onmouseover="mOver(this)" onmouseout="mOut(this)">Aprendiendo</button>
 
+    <button class="boton" onclick="displayDate();">Fecha</button>
+    <p id="Fecha"></p>
 
+    <button class="boton" onclick="hola();">!Buenos Dias¡</button>
+    <p id="b3"></p>
+
+    <button class="boton" onclick="calculadora.sumar(15,20);">Suma</button>
+    <button class="boton" onclick="calculadora.multiplicacion(15,20);">multiplica</button>
+    <button class="boton" onclick="calculadora.division(15,20);">divide</button>
+    <p id="result"></p>
+    
 
 
 <!--<script type="text/Javascript" src="js/01-hola-mundo.js"></script>
@@ -54,15 +77,14 @@
 
 <script type="text/Javascript" src="js/19-reproductor.js"></script>
 
+<script type="text/Javascript" src="js/prueba-calculdora.js"></script>
 
+<script type="text/Javascript" src="js/20-dom.js"></script>
 
 
 !-->
 
-
-
-<script type="text/Javascript" src="js/prueba-calculdora.js"></script>
-
+<script type="text/Javascript" src="js/21-eventos.js"></script>
 
 </body>
 </html>
