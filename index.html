@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
-    <link rel="stylesheet" href="css/styledom.css">
+    <link rel="stylesheet" 
+          href="css/styledom.css" 
+/>
 </head>
 <body>
 <!--<body onload="window.alert (`Bienvenido`);">!-->
-    
-    <h1 class="title">Javascript</h1>
+
+    <h1 class="top" class="title">Javascript</h1>
     <ul class="nav">
         <li><a>Inicio</a></li>
         <li><a>Nosotros</a></li>
@@ -23,7 +25,7 @@
     <p id="text"></p>
     <p id="result"></p>
 
-    <button class="boton" onmouseover="mOver(this)" onmouseout="mOut(this)">Aprendiendo</button>
+    <button class="boton" onmouseover="mOver(this)" onmouseout="mOut(this)" id="boton">Aprendiendo</button>
 
     <button class="boton" onclick="displayDate();">Fecha</button>
     <p id="Fecha"></p>
@@ -31,11 +33,21 @@
     <button class="boton" onclick="hola();">!Buenos Dias¡</button>
     <p id="b3"></p>
 
+    <p id="result"></p>
     <button class="boton" onclick="calculadora.sumar(15,20);">Suma</button>
     <button class="boton" onclick="calculadora.multiplicacion(15,20);">multiplica</button>
     <button class="boton" onclick="calculadora.division(15,20);">divide</button>
     
+    <input type="text" id="fname" oninput="upperCase()">
 
+    <button id="myButton">Probando Event Listener</button>
+
+    <button class="title2">Pruebra</button>
+
+    <div id="div1">
+        <p id="p1">esto es un parrafo.</p>
+        <p id="p2">esto es otro parrafo.</p>
+    </div>
 
 <!--<script type="text/Javascript" src="js/01-hola-mundo.js"></script>
 
@@ -80,7 +92,11 @@
 <script type="text/Javascript" src="js/20-dom.js"></script>
 
 !-->
+
+
 <script type="text/Javascript" src="js/21-eventos.js"></script>
+
+<script type="text/Javascript" src="js/22-.js"></script>
 
 </body>
 </html>
