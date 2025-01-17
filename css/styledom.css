@@ -43,3 +43,17 @@
 }.grande{
     font-size: 64px;
 }
+.color1{
+    background-color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    color: blue;
+}
+.color2{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+}

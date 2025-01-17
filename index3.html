@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+          href="css/stylerepaso.css">
+</head>
+<body onload="checkCookies()">
+
+    <button onclick="document.getElementById('fecha').innerHTML=Date()">
+        <type="button">dime la fecha</button>
+
+    <button onclick="displayDate()" type="button">Fecha</button>
+
+    <p id="fecha"></p>
+
+    <p id="demo"></p>
+
+    <h2 onclick="this.innerHTML='no estudie'">click aqui </h2>
+
+    <input 
+    type="text" 
+    id="fname" 
+    oninput="toLowerCase()">
+
+    <div 
+    onmouseover="mOver(this)" 
+    onmouseout="mOut(this)" 
+    class="color"> ENERO </div>
+
+    <h1> EVENT LISTENER </h1>
+    <button id="myButton">Probando</button>
+    <button id="myButton2">money</button>
+    <button id="myButton3">suma</button>
+
+    <button id="myButton4">clase</button>
+
+
+</body>
+
+    <script type="text/Javascript" src="js/repaso2-.js"></script>
+
+</html>
